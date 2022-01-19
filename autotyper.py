@@ -21,8 +21,6 @@ print("      .o.                     .    o8o                            .      
       " .8'     `888.  888   .o8   888 .  888     `888'    d8(  888    888 . 888    .o 888   888 \n"
       "o88o     o8888o `Y8bod8P'   888  o888o     `8'     `Y888""8o   888  `Y8bod8P' `Y8bod88P")
 
-#start-up countdown
-
 time_now = 5
 timer = 0
 while time_now != timer:
@@ -40,7 +38,7 @@ while time_now != timer:
         print("2-seconds")
     if timer == 5:
         print("Starting....")
-#typer
+
 def say(word):
     timer = 100000000
     time_now = 1
@@ -61,8 +59,15 @@ def say(word):
         current_time = now.strftime("%H:%M:%S")
         keyboard.type(word + current_time)
         keyboard.press(Key.enter)
-        
-        thread1 = threading.Thread(target=say(" #PUT YOUR TEXT HERE "))
+
+
+thread1 = threading.Thread(target=say(" Rawr "))
+
+
+
 
 
 thread1.start()
+
+
+
