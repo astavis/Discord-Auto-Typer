@@ -26,7 +26,7 @@ Made for xp farming on Discord servers with Discord message levelling.
 
 4.The program will give you about 6 seconds of start-up time to place your cursor in the Discord chatbox.
 
-**How to customize it**
+**How to customize it (Use text editor to do so)** 
 * You can pick the downtime between each message at Code line 50 (fifty)
 * You can Write your own message at Code line 65 (sixty-five)
 * the code is a really basic canvas so adjust it to your preferences
