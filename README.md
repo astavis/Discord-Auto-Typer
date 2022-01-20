@@ -5,7 +5,7 @@ Python code that auto types for you
 
 Made for xp farming on Discord servers with Discord message levelling. 
 
-**Never use of discord Tos breaking activities like Raiding and Spamming**
+**Never use for discord Tos breaking activities like Raiding and Spamming**
 
 **REQUIREMENTS**
 
