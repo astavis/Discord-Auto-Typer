@@ -45,7 +45,7 @@ def say(word):
     amount = 10000000
     current = 1
     while current != amount:
-        time.sleep(1)
+        time.sleep(10)
         current += 1
         print(" _______  _______  __    _  _______ \n" 
               "|       ||       ||  |  | ||       | \n"
@@ -55,13 +55,13 @@ def say(word):
               " _____| ||   |___ | | |   |  |   | \n"  
               "|_______||_______||_|  |__|  |___| \n")
         print(current)
-        now = datetime.now()
-        current_time = now.strftime("%H:%M:%S")
+      
+        
         keyboard.type(word + current_time)
         keyboard.press(Key.enter)
 
 
-thread1 = threading.Thread(target=say(" Rawr "))
+thread1 = threading.Thread(target=say(" t!tg train "))
 
 
 
